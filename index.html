@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
@@ -22,16 +21,16 @@
           <legend class=" mega italic push-1-2 pad-b-1-4">Personal details</legend>
           <div class="grid">
             <div class="space-r unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
-              <label class="" for="name ">Name</label>
+              <label class="" for="name">Name</label>
               <input id="name" name="name">
             </div>
             <div class="unit xs-1 s-l m-1 l-1-2 xl-1-2 push">
               <label for="age">Age</label>
-              <input id="name" type="age">
+              <input id="age" type="number" name="age">
             </div>
             <div class="space-r unit unit xs-1 s-l m-1 l-1-2 xl-1-2 push-1-2">
               <label for="email">Email</label>
-              <input id="email" name="name">
+              <input id="email" name="name" type="email">
             </div>
             <div class="unit unit xs-1 s-l m-1 l-1-2 xl-1-2 ">
               <label class="" for="fitness">Physical fitness</label>
@@ -44,8 +43,8 @@
             </div>
           </div>
           <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t">
-            <label for="details">Address</label>
-            <textarea id="details" name="message"></textarea>
+            <label for="address">Address</label>
+            <textarea id="address" name="message"></textarea>
           </div>
         </fieldset>
         <fieldset>
@@ -55,7 +54,7 @@
             <textarea id="details" name="why"></textarea>
           </div>
           <div class="unit-content-center-horizontal">
-            <button type="register" name="button">Register for the trip!</button>
+            <button type="submit" name="button">Register for the trip!</button>
           </div>
           <input type="hidden" name="subject" value="Request to join the mission">
         </fieldset>
