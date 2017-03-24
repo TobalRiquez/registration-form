@@ -19,6 +19,22 @@ html {
 }
 
 body {
-  margin: none;
-  padding: none;
+  background-color: #f2f2f2;
 }
+
+button {
+  color: #fff;
+  background-color: #000;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+}
+ @media only screen and (min-width: 60em) {
+
+  .space-r {
+    padding-right: 1em;
+  }
+
+
+ }
